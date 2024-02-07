@@ -1,0 +1,1 @@
+data_values = {'speed': 400, 'axis': 'y axis', 'height': 100, 'size': 'small', 'light': True, 'text': 'none'}

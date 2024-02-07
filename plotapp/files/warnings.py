@@ -1,0 +1,16 @@
+warnings = {
+    "Warning 1": "Unauthorized access detected. Please refrain from accessing confidential information without proper authorization.",
+    "Warning 2": "Suspicious activity detected. Your actions are being monitored and any further unauthorized access may result in legal consequences.",
+    "Warning 3": "Malicious software detected. Do not download or execute any suspicious files to prevent potential harm to your device.",
+    "Warning 4": "Data breach alert. Take immediate action to secure your personal information and change your passwords.",
+    "Warning 5": "Phishing attempt detected. Be cautious of providing personal or financial information to unknown sources.",
+    "Warning 6": "Network connectivity issue. Please check your internet connection and try again.",
+    "Warning 7": "System update required. Failure to update may leave your device vulnerable to security threats.",
+    "Warning 8": "Insufficient storage space. Clear some disk space to ensure proper functioning of your device.",
+    "Warning 9": "Invalid input. Please enter valid information to proceed.",
+    "Warning 10": "Critical error encountered. Contact customer support for further assistance.",
+    "Warning 11": "Battery level low. Connect your device to a power source to prevent unexpected shutdown.",
+    "Warning 12": "Unauthorized modification detected. Any alterations to the system without proper authorization are strictly prohibited.",
+    "Warning 13": "Outdated software detected. Update your applications to access the latest features and security patches.",
+    "Warning 14": "Unstable network connection. Check your network settings or contact your service provider for assistance.",
+}

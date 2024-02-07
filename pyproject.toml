@@ -1,0 +1,31 @@
+# pyproject.toml
+[build-system]
+requires = [
+    "setuptools",
+	"PyQt5",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "plotapp",
+]
+
+[project]
+name = "MicroPlotApp"
+version = "0.1.0"
+authors = [
+    { name = "Reinhard Caspary", email = "reinhard.caspary@phoenixd.uni-hannover.de"},
+    { name = "Dennet Orbaugh", email = "dennet.orbaugh.antillon@stud.uni-hannover.de"},
+]
+description = "GUI to run jobs on Laser Nanofactory from Femtika"
+readme = "README.md"
+dependencies = [
+    'PyQt5>=5.15',
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
