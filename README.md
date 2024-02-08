@@ -1,6 +1,6 @@
 # PlotApp
 
-Python 3 providing  a GUI based on PyQt5 to run a generic 3D printer with camera support.
+Python 3 package providing a GUI based on PyQt5 to run a generic 3D printer with camera support.
 
 ## Installation
 
