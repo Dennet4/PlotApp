@@ -18,7 +18,7 @@ authors = [
     { name = "Reinhard Caspary", email = "reinhard.caspary@phoenixd.uni-hannover.de"},
     { name = "Dennet Orbaugh", email = "dennet.orbaugh.antillon@stud.uni-hannover.de"},
 ]
-description = "Python 3 GUI based on PyQt5 to run a generic 3D printer with camera support"
+description = "GUI based on PyQt5 to run a generic 3D printer with camera support"
 readme = "README.md"
 dependencies = [
     'PyQt5>=5.15',
