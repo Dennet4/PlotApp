@@ -1,0 +1,3 @@
+import plotapp
+
+plotapp.run()

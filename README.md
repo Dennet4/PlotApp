@@ -1,11 +1,24 @@
-# MicroPlotApp
-GUI to run jobs on Laser Nanofactory from Femtika.
+# PlotApp
+
+Python 3 GUI based on PyQt5 to run a generic 3D printer with camera support.
 
 ## Installation
 
-Run `build.bat` to install the package `plotapp` in your local Python 3 environment. If you want to clean up all build files, run `clean.bat`.
+To build and install the package PlotApp, run the command
+
+```
+python -m pip install .
+```
+
+To clean all intermediate files and directories, run
+```
+python clean.py
+```
+
 
 ## Usage
+
+Generic Python application file:
 
 ```
 import plotapp
