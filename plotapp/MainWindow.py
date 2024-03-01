@@ -13,14 +13,15 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QMenu, QToolBar, QMessageBox, QMainWindow, \
     QWidget, QHBoxLayout, QVBoxLayout, QAction
 
-from .ImageViewer import ImageViewer
-from .DataInputBox import DataInputBox
-from .WarningBox import WarningBox
+from ImageViewer import ImageViewer
+from DataInputBox import DataInputBox
+from WarningBox import WarningBox
+import posdummy as PhoenixD_pos
 
 ###### FIX THIS!
-from .data_specifications import data_specifications
-from .data_values import data_values
-from .data_images import image_data
+from data_specifications import data_specifications
+from data_values import data_values
+from data_images import image_data
 ###### FIX THIS!
 
 # Global parameters
@@ -128,6 +129,9 @@ class MainWindow(QMainWindow):
         menu.addAction(QAction('Add Object', self,
                                shortcut='Ctrl+a',
                                triggered=self.viewer.add_object))
+        menu.addAction(QAction('Positions', self,
+                               shortcut='Ctrl+p',
+                               triggered=self.show_positions_window))
         menuBar.addMenu(menu)
 
         # Menu "Configuration"
@@ -179,6 +183,11 @@ class MainWindow(QMainWindow):
                 event.ignore()
         else:
             event.accept()
+
+    def show_positions_window(self):
+        position = PhoenixD_pos.Position()
+        self.pos_window = PhoenixD_pos.Window(position)
+        self.pos_window.show()
 
     '''
     # Create the zoom option for the image

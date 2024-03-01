@@ -6,7 +6,7 @@
 
 import math
 #from fonttable import HP1345A
-from .fonttable import HP1345A
+from fonttable import HP1345A
 
 
 class Font(object):

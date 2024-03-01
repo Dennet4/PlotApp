@@ -16,7 +16,7 @@ from PyQt5.QtCore import Qt, QPointF
 from PyQt5.QtWidgets import QLineEdit, QLabel, QDialog, QComboBox, QPushButton, \
     QGraphicsView, QGraphicsPixmapItem, QGraphicsScene, QFormLayout, QVBoxLayout
 
-from .font import Font as LineFont
+from font import Font as LineFont
 
 
 ############################################################################

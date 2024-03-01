@@ -15,8 +15,8 @@ from PyQt5.QtWidgets import QFileDialog, QLineEdit, QLabel, QComboBox, \
 
 ###### FIX THIS!
 #from .files.qcheckcombobox import CheckComboBox
-from .data_specifications import data_specifications
-from .data_values import data_values
+from data_specifications import data_specifications
+from data_values import data_values
 ###### FIX THIS!
 
 
